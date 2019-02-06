@@ -18,13 +18,12 @@ class Node:
 	def __init__(self, key=None, val=None):
 		self.key = key
 		self.val = val # satelite data
-		self.next = None
+		self.next = self
 
 class SinglyLinkedList:
 	def __init__(self):
 		self.nil = Node() # sentinel node
 		self.head = self.nil
-		self.nil.next = self.head
 
 	def insert(self, x):
 		# head <- inserted node
