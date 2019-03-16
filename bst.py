@@ -100,6 +100,7 @@ class BST:
 		raise Exception("key not found")
 
 	def minimum(self, x):
+		"""return the minimum of the subtree rooted at x"""
 		prev = self.nil
 		curr = x
 		while curr is not self.nil:
@@ -108,6 +109,7 @@ class BST:
 		return prev
 
 	def maximum(self, x):
+		"""return the maximum of the subtree rooted at x"""
 		prev = self.nil
 		curr = x
 		while curr is not self.nil:

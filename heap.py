@@ -7,17 +7,17 @@
 * max-heap : Given any node x, the key of its parent x.p.key >= the key of the node itself x.key
 3. Heap is usually implemented with array.
 4. Priority queue is usually implemented with heap. (ex. vanilla OS scheduler)
-   Stable sort is achieved by comprison among tuples (priority, unique_count, task), instead of priority alone
+   Stable sort is achieved by comparison among tuples (priority, unique_count, task), instead of priority alone
 
 - Basic Operation:
 # h = θ(log(n)) is the height of the heap (nearly complete binary tree)
 1. Insert(S, x) : a.k.a Push, O(log(n))
 2. Delete(S) : a.k.a Pop, O(log(n))
-3. Search(S, k) : NOT IMPLEMENTED
-4. Maximum(S, x) : IMPLEMENTED IN max-heap, O(1)
-5. Minimum(S, x) : IMPLEMENTED IN min-heap, O(1)
-6. Successor(S, x) : NOT IMPLEMENTED
-7. Predecessor(S, x) : NOT IMPLEMENTED
+3. Search : NOT IMPLEMENTED
+4. Maximum(S) : IMPLEMENTED IN max-heap, O(1)
+5. Minimum(S) : IMPLEMENTED IN min-heap, O(1)
+6. Successor : NOT IMPLEMENTED
+7. Predecessor : NOT IMPLEMENTED
 
 - Special Operation:
 1. Heapify(T) : In-place heapify any nearly complete binary tree into min(max)-heap, O(n)

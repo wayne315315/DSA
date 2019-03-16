@@ -8,10 +8,10 @@
 1. Insert(S, x) : O(1)
 2. Delete(S, x) : O(1)
 3. Search(S, k) : O(n)
-4. Maximum(S) : NOT IMPLEMENTED
-5. Minimum(S) : NOT IMPLEMENTED
-6. Successor(S, x) : NOT IMPLEMENTED
-7. Predecessor(S, x) : NOT IMPLEMENTED
+4. Maximum : NOT IMPLEMENTED
+5. Minimum : NOT IMPLEMENTED
+6. Successor : NOT IMPLEMENTED
+7. Predecessor : NOT IMPLEMENTED
 """
 
 # Universal Implementation (Naïve)
