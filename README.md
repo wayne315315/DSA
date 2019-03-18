@@ -1,5 +1,5 @@
 # Basic operation on a dynamic set S 
-Each element x in S has a key k and associated satelite data
+Each element x in S has a key k and associated satellite data
 - Insert(S, x) : Insert the element into S whose pointer is x
 - Delete(S, x) : Remove the element from S whose pointer is x
 - Search(S, k) : Return a pointer y in S such that y.key = k. Otherwise, return None
@@ -17,7 +17,7 @@ Each element x in S has a key k and associated satelite data
 |**Doubly Linked List**|![passed][passed!]|
 |**Binary Search Tree**|![passed][passed!]|
 |**Heap**|![passed][passed!]|
-|**Trie**|![failed][failed!]|
+|**Trie**|![passed][passed!]|
 |**Hash Table**|![failed][failed!]|
 |**Set**|![failed][failed!]|
 |**Graph**|![failed][failed!]|
