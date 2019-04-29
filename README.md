@@ -16,6 +16,7 @@ Each element x in S has a key k and associated satellite data
 |**Singly Linked List**|![passed][passed!]|
 |**Doubly Linked List**|![passed][passed!]|
 |**Binary Search Tree**|![passed][passed!]|
+|**Segment Tree**|![passed][passed!]|
 |**Heap**|![passed][passed!]|
 |**Trie**|![passed][passed!]|
 |**Hash Table**|![failed][failed!]|
